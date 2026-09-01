@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-charts",
-  "version": "2.2.1",
+  "name": "@josquin2/nuxt-charts",
+  "version": "2.2.3",
   "description": "Nuxt Charts module (Unovis / vue-chrts).",
   "license": "MIT",
   "author": "Dennis Adriaansen <adriaansendennis@gmail.com>",
@@ -53,7 +53,7 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "vue-chrts": "workspace:*"
+    "@josquin2/vue-chrts": "workspace:*"
   },
   "devDependencies": {
     "@nuxt/devtools": "^3.1.1",

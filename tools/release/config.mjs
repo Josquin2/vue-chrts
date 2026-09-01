@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url'
 export const REPO_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..')
 export const PACKAGES_DIR = resolve(REPO_ROOT, 'packages')
 
-export const GITHUB_REPO = 'dennisadriaans/vue-chrts'
+export const GITHUB_REPO = 'josquin2/vue-chrts'
 export const RELEASE_BRANCH = 'main'
 
 /**

@@ -1,12 +1,12 @@
 {
   "version": "0.0.0",
-  "name": "vue-chrts",
+  "name": "@josquin2/vue-chrts",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "turbo run build",
-    "build:vue": "turbo run build --filter=vue-chrts",
-    "build:nuxt": "turbo run build --filter=nuxt-charts",
+    "build:vue": "turbo run build --filter=@josquin2/vue-chrts",
+    "build:nuxt": "turbo run build --filter=@josquin2/nuxt-charts",
     "build:nuxt-legacy": "turbo run build --filter=nuxt-charts-legacy",
     "dev": "turbo run dev",
     "dev:nuxt": "turbo run dev --filter=nuxt-charts",
