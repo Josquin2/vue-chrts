@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.2.4] (2026-09-01)
+
+### Bug Fixes
+
+* update meta data nuxt charts ([958c27d](https://github.com/josquin2/vue-chrts/commit/958c27d6fdd5cb811183d1e2def71fb4a54b6924))
+* clean up old files and prepare release script ([9dfac7d](https://github.com/josquin2/vue-chrts/commit/9dfac7d2e0c31fa30a89f0f4a7fa28265252b9f0))
+* remove vue-charts from transpile ([#136](https://github.com/josquin2/vue-chrts/issues/136)) ([474d534](https://github.com/josquin2/vue-chrts/commit/474d534cf713ab0738a05d3fe4cf282e10a9c608))
+* **nuxt-charts:** correct module meta name ([0deefcf](https://github.com/josquin2/vue-chrts/commit/0deefcfadc87495e6fa3847b46f09967a2e6dff1))
+
 ## [2.2.1](https://github.com/dennisadriaans/vue-chrts/compare/nuxt-charts-v2.2.1-beta.0...nuxt-charts-v2.2.1) (2026-07-23)
 
 ## [2.2.1-beta.0](https://github.com/dennisadriaans/vue-chrts/compare/nuxt-charts-v2.1.5-test.0...nuxt-charts-v2.2.1-beta.0) (2026-07-23)
