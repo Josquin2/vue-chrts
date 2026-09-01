@@ -19,7 +19,7 @@ importers:
 
   packages/nuxt-charts:
     dependencies:
-      vue-chrts:
+      '@josquin2/vue-chrts':
         specifier: workspace:*
         version: link:../vue
     devDependencies:
