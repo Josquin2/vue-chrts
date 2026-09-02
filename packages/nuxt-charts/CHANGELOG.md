@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.2.9](https://github.com/josquin2/vue-chrts/compare/@josquin2%2Fnuxt-charts@2.2.8...@josquin2%2Fnuxt-charts@2.2.9) (2026-09-02)
+
+### Bug Fixes
+
+* resolve optimize deps (wrong path) ([db490a2](https://github.com/josquin2/vue-chrts/commit/db490a248987648edd6d464599067d828a75547d))
+
 ## [2.2.8](https://github.com/josquin2/vue-chrts/compare/@josquin2%2Fnuxt-charts@2.2.7...@josquin2%2Fnuxt-charts@2.2.8) (2026-09-02)
 
 ### Bug Fixes
