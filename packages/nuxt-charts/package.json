@@ -1,6 +1,6 @@
 {
   "name": "@josquin2/nuxt-charts",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "description": "Nuxt Charts module (Unovis / vue-chrts).",
   "license": "MIT",
   "author": "Dennis Adriaansen <adriaansendennis@gmail.com>",
