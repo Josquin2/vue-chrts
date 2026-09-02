@@ -9,7 +9,7 @@
     "build:nuxt": "turbo run build --filter=@josquin2/nuxt-charts",
     "build:nuxt-legacy": "turbo run build --filter=nuxt-charts-legacy",
     "dev": "turbo run dev",
-    "dev:nuxt": "turbo run dev --filter=nuxt-charts",
+    "dev:nuxt": "turbo run dev --filter=@josquin2/nuxt-charts",
     "dev:nuxt-legacy": "turbo run dev --filter=nuxt-charts-legacy",
     "test": "turbo run test",
     "lint": "turbo run lint",

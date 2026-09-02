@@ -13,6 +13,6 @@ export type {
   CrosshairConfig,
   AxisConfig,
   TooltipConfig,
-} from "vue-chrts";
+} from "@josquin2/vue-chrts";
 
-export type { MapRegion, MapPin } from "vue-chrts";
+export type { MapRegion, MapPin } from "@josquin2/vue-chrts";

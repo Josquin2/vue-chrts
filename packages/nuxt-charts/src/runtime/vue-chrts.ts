@@ -10,4 +10,4 @@ export {
   SankeyChart,
   TopoJSONMap,
   DottedMap,
-} from "vue-chrts";
+} from "@josquin2/vue-chrts";
