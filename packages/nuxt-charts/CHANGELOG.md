@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.2.8](https://github.com/josquin2/vue-chrts/compare/@josquin2%2Fnuxt-charts@2.2.7...@josquin2%2Fnuxt-charts@2.2.8) (2026-09-02)
+
+### Bug Fixes
+
+* resolve autoimports ([354af0f](https://github.com/josquin2/vue-chrts/commit/354af0fbcf202f65f51611c44025fe5207e0ce3d))
+
 ## [2.2.7](https://github.com/josquin2/vue-chrts/compare/@josquin2%2Fnuxt-charts@2.2.6...@josquin2%2Fnuxt-charts@2.2.7) (2026-09-02)
 
 ### Bug Fixes
