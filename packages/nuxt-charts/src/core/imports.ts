@@ -24,12 +24,12 @@ export const resolveImports = (config: ModuleOptions, filePath: string) => {
     if (config.sharedImports !== false) {
         const enumImports = ['CurveType', 'LegendPosition', 'Orientation']
         addImportsSources({
-            from: "vue-chrts/enums",
+            from: "@josquin2/vue-chrts/enums",
             imports: [...enumImports]
         })
 
         addImportsSources({
-            from: "vue-chrts",
+            from: "@josquin2/vue-chrts",
             imports: ['DonutType']
         })
     }
