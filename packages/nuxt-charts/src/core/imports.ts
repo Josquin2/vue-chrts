@@ -37,13 +37,13 @@ export const resolveImports = (config: ModuleOptions, filePath: string) => {
     // Map helpers are v2-only; always auto-imported when autoImports is on.
     const runtimeImports = ['getMap', 'getPin']
     addImportsSources({
-        from: "vue-chrts",
+        from: "@josquin2/vue-chrts",
         imports: [...runtimeImports]
     })
 
     const geoImports = ['geoMercator']
     addImportsSources({
-        from: "vue-chrts",
+        from: "@josquin2/vue-chrts",
         imports: [...geoImports]
     })
 
@@ -60,7 +60,7 @@ export const resolveImports = (config: ModuleOptions, filePath: string) => {
         'WorldMapTopoJSON',
     ]
     addImportsSources({
-        from: "vue-chrts",
+        from: "@josquin2/vue-chrts",
         imports: [...topoJsonImports]
     })
 }

@@ -90,7 +90,7 @@ export default defineNuxtModule<ModuleOptions>({
     // module added it.
     nuxt.hook("modules:done", () => {
       nuxt.options.build.transpile = nuxt.options.build.transpile.filter(
-        (entry) => entry !== "vue-chrts",
+        (entry) => entry !== "@josquin2/vue-chrts",
       );
     });
 
