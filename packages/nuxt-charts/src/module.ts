@@ -97,8 +97,8 @@ export default defineNuxtModule<ModuleOptions>({
     // Resolve @unovis package directories through vue-chrts.
     // In pnpm strict mode, @unovis/ts and @unovis/vue are only accessible
     // through vue-chrts's own node_modules, not from the consumer's root.
-    const unovisTsDir = resolvePackageDir("@unovis/ts", "vue-chrts");
-    const unovisVueDir = resolvePackageDir("@unovis/vue", "vue-chrts");
+    const unovisTsDir = resolvePackageDir("@unovis/ts", "@josquin2/vue-chrts");
+    const unovisVueDir = resolvePackageDir("@unovis/vue", "@josquin2/vue-chrts");
 
     // Register aliases so Vite (and Nuxt) can resolve @unovis packages
     // regardless of the package manager's hoisting strategy.
@@ -127,7 +127,7 @@ export default defineNuxtModule<ModuleOptions>({
       config.optimizeDeps.include ??= [];
 
       const entries = [
-        "vue-chrts",
+        "@josquin2/vue-chrts",
         ...(unovisTsDir ? ["@unovis/ts"] : []),
         ...(unovisVueDir ? ["@unovis/vue"] : []),
       ];
@@ -148,7 +148,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     // Ensure the website (and other consumers) can resolve vue-chrts even under
     // pnpm isolation when this module is loaded alongside nuxt-charts-next.
-    const vueChrtsDir = resolvePackageDir("vue-chrts");
+    const vueChrtsDir = resolvePackageDir("@josquin2/vue-chrts");
     if (vueChrtsDir) {
       nuxt.options.alias["vue-chrts"] = vueChrtsDir;
     }
